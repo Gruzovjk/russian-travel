@@ -21,6 +21,6 @@
 /* рубрика "эксперементы" */
 @media screen and (max-width: 767px) {
   .lead__title {
-    font-size: calc(40px + ((90-40)) * ((100vw - 320px) / 1280));
+    font-size: calc(40px + ((90 - 40)) * ((100vw - 320px) / 1280));
   }
 }
