@@ -1,11 +1,10 @@
 .lead__title {
   margin: 0 auto;
   max-width: 720px;
-  max-height: 200px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
-  font-size: 90px;
+  font-size: 96px;
   line-height: 1.04;
   text-align: center;
 }
@@ -13,7 +12,6 @@
 @media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
-    max-height: 88px;
     /*font-size: 40px;*/
     line-height: 1.1;
   }
@@ -21,6 +19,6 @@
 /* рубрика "эксперементы" */
 @media screen and (max-width: 767px) {
   .lead__title {
-    font-size: calc(40px + ((90 - 40)) * ((100vw - 320px) / 1280));
+    font-size: calc(40px + ((96 - 40)) * ((100vw - 320px) / 1280));
   }
 }
