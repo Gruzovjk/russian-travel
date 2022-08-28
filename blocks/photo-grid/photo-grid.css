@@ -1,0 +1,38 @@
+@import url(./__item/photo-grid__item.css);
+
+.photo-grid {
+  margin: 0 auto;
+  margin-top: 92px;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+}
+
+@media screen and (max-width: 1184px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 928px;
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    max-width: 720px;
+    gap: 16px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    max-width: 288px;
+    gap: 12px;
+    margin-top: 64px;
+  }
+}
+
+/*не понимаю, найти больше инфы. подобрал эксперементально (заметил как "слетает" размер картинки в точке max-width */
