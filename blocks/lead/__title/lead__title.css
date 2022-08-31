@@ -9,16 +9,15 @@
   text-align: center;
 }
 
-@media screen and (max-width: 320px) {
-  .lead__title {
-    max-width: 288px;
-    /*font-size: 40px;*/
-    line-height: 1.1;
-  }
-}
-/* рубрика "эксперементы" */
 @media screen and (max-width: 767px) {
   .lead__title {
     font-size: calc(40px + ((96 - 40)) * ((100vw - 320px) / 1280));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    line-height: 1.1;
   }
 }

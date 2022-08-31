@@ -1,14 +1,21 @@
 .footer {
   margin: 0 auto;
-  padding: 0 1rem 1rem; /* попробовать */
+  padding: 0 3rem 1.5rem; /* попробовать */
   max-width: 1184px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0 1.5rem 1.5rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .footer {
     flex-direction: column;
+    padding: 0 1rem 1.5rem;
   }
 }
