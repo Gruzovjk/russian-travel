@@ -1,16 +1,11 @@
 .lead {
   margin: 56px auto 0;
-  max-width: calc(928px + (984 - 928) * ((100vw - 1024px) / (1280 - 1024)));
-}
-
-@media screen and (min-width: 1280px) {
-  .lead {
-    max-width: 928px;
-  }
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
+    max-width: 928px;
     margin-top: 48px;
   }
 }

@@ -16,5 +16,6 @@
     line-height: 1.14;
     font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
     max-width: 288px;
+    margin-top: 16px;
   }
 }
