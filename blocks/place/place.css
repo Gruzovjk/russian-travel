@@ -16,6 +16,7 @@
     .place {
       grid-template-columns: 340px 352px;
       column-gap: 28px;
+      margin-top: 73px;
     }
   }
 }
@@ -25,5 +26,6 @@
     grid-template-columns: 1fr;
     justify-items: start;
     row-gap: 32px;
+    margin-top: 50px;
   }
 }
